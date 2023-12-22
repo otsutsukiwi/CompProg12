@@ -1,0 +1,73 @@
+#main{
+    margin: 25px 200px 0px 200px;
+}
+
+#header{
+    background-color:rgb(222, 184, 135);
+    text-align: center;
+    border-radius: 10px;
+}
+
+#changeName{
+    background-color: rgb(255, 228, 196);
+    height: 40px;
+    width: 300px;
+}
+
+#content{
+    background-color: burlywood;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sampleElement{
+    background-color: beige;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px 200px 0px 200px;
+}
+
+.buttons {
+    background-color: rgb(255, 228, 196);
+    height: 40px;
+    width: 300px;
+    margin: 0px 0px 20px 0px;
+}
+
+.buttons:hover {
+    background-color: rgb(240, 152, 0);
+    height: 40px;
+    width: 300px;
+    margin: 0px 0px 20px 0px;
+}
+
+.buttons1 {
+    background-color: rgb(255, 228, 196);
+    height: 60px;
+    width: 60px;
+    margin: 0px 0px 20px 0px;
+}
+
+.buttons1:hover {
+    background-color: rgb(240, 152, 0);
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#images {
+    position: relative;
+}
+
+#animate {
+    background-color: burlywood;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+}
+
