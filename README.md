@@ -1,1 +1,1 @@
-# CompProg12
+# Counter Application and DOM Project
