@@ -1,0 +1,101 @@
+#main{
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#butDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    font-size:xx-large;
+}
+
+.buttons{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style:solid;
+    font-size: larger;
+}
+.buttons:hover{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(137, 137, 137);
+    border-style:solid;
+    font-size: larger;
+}
+.buttons:active{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style:solid;
+    font-size: larger;
+}
+
+.buttonsR{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(152, 0, 0);
+    border-style:solid;
+    font-size: larger;
+}
+
+.buttonsR:hover{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(255, 0, 0);
+    border-style:solid;
+}
+
+.buttonsR:active{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(255, 143, 143);
+    border-style:solid;
+}
+
+.buttonsG{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(0, 174, 0);
+    border-style:solid;
+    font-size: larger;
+}
+
+.buttonsG:hover{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(0, 255, 0);
+    border-style:solid;
+}
+
+.buttonsG:active{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(104, 255, 104);
+    border-style:solid;
+}
+
+#counter{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: black;
+    border-style:solid;
+}
