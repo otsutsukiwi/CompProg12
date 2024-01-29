@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Air Canada</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav id="header_id">
+            <div class="header">
+                <img id="home" src="images\ACLogo.png" class="logo" alt="logo">
+            </div>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#employees">Employees</a></li>
+                <li><a href="#footer">Contacts</a></li>
+                <li><button onclick="color_change()" id="color_change"><img id="bucket_img" src="images\bucket.png"></button></li>
+            </ul>
+            <ul class="icons">
+                <li><a target=”_blank” href="https://www.youtube.com/user/aircanada">Youtube</a></li>
+                <li><a target=”_blank” href="https://twitter.com/AirCanada">Twitter</a></li>
+                <li><a target=”_blank” href="https://www.instagram.com/aircanada/?hl=en">Instagram</a></li>
+            </ul>
+        </nav>
+        <div id="cont_id" class="cont">
+            <div id="counter_cont_id" class="counter_con">
+                <h4>Do you like our website so far?</h4>
+                <p id="counter">0</p>
+                <button id="like" onclick="likeUp()"><img id="like_img" src="images\dislike.png" alt="like-button"></button>
+                <button id="dislike" onclick="likeDown()"><img id="dislike_img" src="images\dislike.png" alt="dislike-button"></button>
+                <button id="reset" onclick="reset()"><img id="reset_img" src="images\reset.png" alt="reset-button"></button>
+            </div>
+            <div id="employees" class="employee_cont">
+                <img id="p1" src="images//romano.jpg">
+                <div><button class="emp_b" id="left_b" onclick="lSelect()"><</button><button class="emp_b" id="right_b" onclick="rSelect()">></button></div>
+                <h2 id="name">Romano James</h2>
+                <h4 id="job">Customer Service Representative</h3>
+                <p id="desc">Romano excels in ensuring a seamless travel experience for Air Canada passengers. With a keen attention to detail and excellent communication skills, he resolves customer inquiries, manages flight bookings, and handles special requests with professionalism and efficiency.</p>
+            </div>
+
+        </div>
+        <footer id="footer">
+            <div class="footer-content">
+              <div class="footer-logo">
+                <img id="f_logo" src="images\logo.png" alt="Your Logo">
+              </div>
+              <div class="footer-info">
+                <p>Air Canada</p>
+                <p>123 Main Street, Toronto, Canada</p>
+                <p>Email: AirCanada@companyemails.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+              </div>
+            </div>
+          </footer>
+        <script src="script.js" async defer></script>
+    </body>
+</html>

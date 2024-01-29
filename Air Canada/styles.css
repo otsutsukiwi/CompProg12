@@ -1,0 +1,159 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color:#8D775F;
+}
+
+/* Nav Bar */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#F1F0CC;
+    width: 100%;
+    margin: -8px auto auto auto;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 210px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin: 0 10px;
+}
+
+#color_change{
+    width: 30px;
+    height: 30px;
+}
+
+#bucket_img{
+    width: 150%;
+}
+
+/* Content */
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#F1F0CC;
+    width: 80%;
+    height: 100vh;
+    margin: 10px auto auto auto;
+
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.counter_con{
+    display: flex;
+    background-color: #d5bf86;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+}
+
+#p1{
+    width: 200px;
+}
+
+#counter{
+    margin: 5% auto auto 10px;
+}
+
+#like{
+    margin: 4% auto auto 10px;
+}
+#like_img{
+    transform: rotate(-0.5turn);
+    width: 20px;
+    height: 20px;
+}
+
+#dislike{
+    margin: 4% auto auto 10px;
+}
+#dislike_img{
+    width: 20px;
+    height: 20px;
+}
+
+#reset{
+    margin: 4% auto auto 10px;
+}
+#reset_img{
+    width: 20px;
+    height: 20px;
+}
+
+/* Employee Box */
+.employee_cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d5bf86;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    max-width: 438px;
+    min-width: 20%;
+    text-align: center;
+}
+
+.employee_cont > *{
+    margin: 5px;
+}
+
+
+footer {
+background-color: #ffffff;
+color: #000000;
+padding: 20px 0;
+}
+
+#f_logo{
+    width: 200px;
+}
+
+.footer-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.footer-logo img {
+width: 100px; /* Adjust the logo size as needed */
+}
+
+.footer-info {
+max-width: 100;
+}
+
+.footer-info p {
+margin: 8px 0;
+}
+
+.footer-social a {
+color: #fff;
+text-decoration: none;
+margin-right: 15px;
+}
+  
